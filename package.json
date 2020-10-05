@@ -1,0 +1,45 @@
+{
+  "name": "xprezzo-session",
+  "version": "1.1.0",
+  "description": "Simple session middleware for Express",
+  "author": "Ben Ajenoui <info@seohero.io>",
+  "repository": "xprezzo/xprezzo-session",
+  "license": "MIT",
+  "dependencies": {
+    "cookie": "0.4.1",
+    "cookie-signature": "1.1.0",
+    "depd": "~2.0.0",
+    "parseurl": "~1.3.3",
+    "uid-safe": "~2.1.5",
+    "xprezzo-buffer": "1.1.0",
+    "xprezzo-debug": "1.1.0",
+    "xprezzo-on-headers": "1.1.0"
+  },
+  "devDependencies": {
+    "after": "0.8.2",
+    "eslint": "7.8.1",
+    "eslint-plugin-markdown": "1.0.2",
+    "expect.js": "0.3.1",
+    "mocha": "8.1.3",
+    "nyc": "15.1.0",
+    "supertest": "4.0.2",
+    "xprezzo": "1.0.1",
+    "xprezzo-cookie-parser": "1.1.0"
+  },
+  "files": [
+    "session/",
+    "HISTORY.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "lint": "eslint --plugin markdown --ext js,md . && node ./scripts/lint-readme.js",
+    "test": "mocha --require test/support/env --check-leaks --bail --no-exit --reporter spec test/",
+    "test-cov": "nyc npm test",
+    "test-ci": "nyc --reporter=text npm test -- --no-exit",
+    "version": "node scripts/version-history.js && git add HISTORY.md"
+  }
+}
