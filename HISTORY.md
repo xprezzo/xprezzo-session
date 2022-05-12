@@ -2,9 +2,9 @@
 ==================
 
   * depds updated
-  * depds xprezzo-content-type updated to 1.1.1
-  * depds xprezzo-raw-body updated to 1.1.2
-  * depds xprezzo-typeis updated to 1.1.0
+  * depds xprezzo-buffer updated to 1.1.2
+  * depds xprezzo-cookie-parser updated to 1.1.2
+  * depds xprezzo-debug updated to 1.1.0
   * depds xprezzo-buffer updated to 1.1.2
   * depds eslint updated to 8.15.0
   * depds eslint-config-standard updated to 17.0.0
