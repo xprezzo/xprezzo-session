@@ -1,6 +1,6 @@
 {
   "name": "xprezzo-session",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Simple session middleware for Express",
   "author": "Ben Ajenoui <info@seohero.io>",
   "repository": "xprezzo/xprezzo-session",

@@ -558,7 +558,7 @@ On Windows, use the corresponding command;
 
 ## People
 
-Xprezzo and related projects are maintained by [Ben Ajenoui](mailto:info@seohero.io) and sponsored by [SEO Hero](https://www.seohero.io).
+Xprezzo and related projects are maintained by [Cloudgen Wong](mailto:cloudgen.wong@gmail.com).
 
 ## License
 
